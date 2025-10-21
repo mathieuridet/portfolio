@@ -6,8 +6,8 @@ export default function Experience() {
       		<h2 className="text-3xl font-bold mt-12">Professional Software Engineer</h2>
 	        <h3 className="text-1xl font-bold mb-4">@Datahouse AG, Lisbon, Portugal - from 11/2024 to now</h3>
 	        <p className="text-slate-300">
-	          I'm currently working as Softare Engineer in the REDX (Real Estate Data Exchange) team.
-	          I'm responsible to design and program features of this fully customizable ETL application.
+	          I&apos;m currently working as Softare Engineer in the REDX (Real Estate Data Exchange) team.
+	          I&apos;m responsible to design and program features of this fully customizable ETL application.
 	        </p>
 	        <p className="font-semibold mt-6">
 	        	Tech stack : Java 21 (Spring Boot, Spring Batch), React ?.
@@ -17,7 +17,7 @@ export default function Experience() {
 	       	<h3 className="text-1xl font-bold mb-4">@Covea, Paris, France - from 11/2022 to 10/2024</h3>
 	        <p className="text-slate-300">
 	          After my graduation, I decided to stay at Covea to have an hybrid position : keep my Full Stack Developer activities 
-	          but also discover Permissions' world by being kind of an IAM Advisor. <br/>
+	          but also discover Permissions&apos; world by being kind of an IAM Advisor. <br/>
 	          The goal here was to help different projects of the group to design and set up permissions 
 	          regarding their specific context and the best practices of the company.
 	        </p>
@@ -29,15 +29,16 @@ export default function Experience() {
 	       	<h3 className="text-1xl font-bold mb-4">@Covea, Paris, France - from 09/2019 to 10/2022</h3>
 	        <p className="text-slate-300">
 	          	In parallel to my studies (3rd, 4th and 5th years) at Paris 1 Pantheon-Sorbonne (Master in Information Systems Engineering)
-	          	I was apprentice at <a href="https://www.linkedin.com/company/groupecovea/posts/?feedView=all">Covea</a>.<br/>
+	          	I was apprentice at <a target="_blank" className="text-blue-600 underline hover:text-blue-800" rel="noopener noreferrer" href="https://www.linkedin.com/company/groupecovea/posts/?feedView=all">Covea</a>.<br/>
 	          	I was working in the RSA (Structures & Actors Referential) team in the Permission department and had for responsibilities to :
-	          	<ul className="text-slate-300 space-y-2 mt-2">
-	           		<li>• Program and maintain Spring batches,</li>
-	              	<li>• Program features of our Spring Boot/Angular web application,</li>
-	              	<li>• Implement tests (UT, IT, E2E),</li>
-					<li>• Write & maintain documentation.</li>
-            	</ul>
 	        </p>
+	        <ul className="text-slate-300 space-y-2 mt-2">
+	           	<li>• Program and maintain Spring batches,</li>
+	            <li>• Program features of our Spring Boot/Angular web application,</li>
+	            <li>• Implement tests (UT, IT, E2E),</li>
+				<li>• Write & maintain documentation.</li>
+            </ul>
+	        
 	        <p className="font-semibold mt-6">
 	        	Tech stack : Java 8 (Spring Boot, Spring Batch), Angular 7.
 	        </p>

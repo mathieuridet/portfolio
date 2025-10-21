@@ -5,7 +5,7 @@ export default function About() {
       
       <div className="prose prose-invert prose-slate max-w-none">
         <p className="text-xl text-slate-300 leading-relaxed mb-6">
-          Hi! I'm Mathieu, a full-stack software engineer passionate about blockchain technology,
+          Hi! I&apos;m Mathieu, a full-stack software engineer passionate about blockchain technology,
           security auditing, and building decentralized applications.
         </p>
 
@@ -53,8 +53,8 @@ export default function About() {
 
         <h2 className="text-3xl font-bold mt-12 mb-4">Certifications</h2>
         <ul className="text-slate-300 space-y-2">
-          <li>🎓 AWS Certified Solutions Architect - Associate</li>
-          <li>🎓 Certified Kubernetes Application Developer (CKAD)</li>
+          <li>🎓 <a target="_blank" className="text-blue-600 underline hover:text-blue-800" rel="noopener noreferrer" href="https://www.credly.com/badges/8f4ecba7-0f55-4566-aaac-1f520744aa72/linked_in_profile">AWS Certified Solutions Architect - Associate</a></li>
+          <li>🎓 <a target="_blank" className="text-blue-600 underline hover:text-blue-800" rel="noopener noreferrer" href="https://learn.kodekloud.com/certificate/c7443d0f-117c-42e1-b144-98ca9903a781">Certified Kubernetes Application Developer (CKAD)</a></li>
         </ul>
       </div>
     </div>
