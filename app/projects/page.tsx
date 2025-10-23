@@ -16,21 +16,22 @@ const projects = [
     tags: ["Next.js", "Solidity", "Ethers.js", "Web3", "Smart Contracts"]
   },
   {
-    title: "Master Thesis",
+    title: "AI Master Thesis",
     description: "The objective of this thesis from 2021 (in French unfortunately) was to present the state-of-the-art "
     + "regarding the following subject : Deep Learning for Predicting Cancer Onset and Treatment Response.",
     image: "/images/no-image.jpg",
     link: "https://cri.pantheonsorbonne.fr/sites/default/files/2021-10/Me%CC%81moire%20M1%20Mathieu%20RIDET.pdf",
-    tags: ["Research", "AI"]
+    tags: ["Research", "State of the art", "AI"]
   }
 ]
 
 export default function Projects() {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-10">
+    <div className="max-w-6xl mx-auto px-4 py-20">
       <h1 className="text-5xl font-bold mb-4">Projects</h1>
       <p className="text-slate-400 mb-12">
-        A collection of my recent work in Web3, full-stack development, and security tooling.
+        A collection of my recent work in Web3, full-stack development, and security tooling. <br/>
+        To know more about my full-time (corporate) activities, reach out to me directly ! 😀
       </p>
 
       <div className="grid md:grid-cols-2 gap-8">

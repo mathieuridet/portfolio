@@ -10,28 +10,23 @@ type ProjectCardProps = {
 export default function Home() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-20">
-      {/* Hero Section */}
       <section className="text-center mb-20">
         <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Software Engineer
         </h1>
         <p className="text-xl text-slate-400 mb-8 max-w-2xl mx-auto">
-          Building decentralized applications, smart contracts, and AI-powered tools. <br/>
+          Building (decentralized) applications, smart contracts, and AI-powered tools. <br/>
           Passionate about Web3, Cloud, and DevOps.
         </p>
-        <div className="flex gap-4 justify-center">
-          <Link href="/projects" className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition">
-            View Projects
-          </Link>
-          <Link href="/contact" className="px-6 py-3 border border-slate-600 hover:border-blue-400 rounded-lg font-semibold transition">
-            Contact Me
-          </Link>
-        </div>
       </section>
 
-      {/* Featured Projects */}
       <section className="mb-20">
-        <h2 className="text-3xl font-bold mb-8">Featured Projects</h2>
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="text-3xl font-bold">Featured Projects</h2>
+          <Link href="/projects" className="px-6 py-2 border border-slate-600 hover:border-blue-400 hover:text-blue-400 rounded-lg font-semibold transition flex items-center gap-2">
+            View All Projects <span>→</span>
+          </Link>
+        </div>
         <div className="grid md:grid-cols-2 gap-6">
           {/* Project Cards */}
           <ProjectCard
@@ -49,7 +44,51 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Skills */}
+      <section className="mb-20">
+        <h2 className="text-3xl font-bold mb-8">More About Me</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          <Link href="/experience" className="group p-6 bg-slate-800 rounded-xl hover:bg-slate-700 transition border border-slate-700 hover:border-purple-500">
+            <div className="flex items-center gap-3 mb-3">
+              <span className="text-3xl">💼</span>
+              <h3 className="text-xl font-bold">Experience</h3>
+            </div>
+            <p className="text-slate-400 mb-4">
+              Full-stack engineer working with React, Java, and modern cloud technologies
+            </p>
+            <span className="text-purple-400 group-hover:text-purple-300 flex items-center gap-2">
+              Learn more <span>→</span>
+            </span>
+          </Link>
+
+          <Link href="/about" className="group p-6 bg-slate-800 rounded-xl hover:bg-slate-700 transition border border-slate-700 hover:border-blue-500">
+            <div className="flex items-center gap-3 mb-3">
+              <span className="text-3xl">👨‍💻</span>
+              <h3 className="text-xl font-bold">About</h3>
+            </div>
+            <p className="text-slate-400 mb-4">
+              My journey, skills, certifications, and what drives me as a developer
+            </p>
+            <span className="text-blue-400 group-hover:text-blue-300 flex items-center gap-2">
+              Learn more <span>→</span>
+            </span>
+          </Link>
+
+          <Link href="/contact" className="group p-6 bg-slate-800 rounded-xl hover:bg-slate-700 transition border border-slate-700 hover:border-green-500">
+            <div className="flex items-center gap-3 mb-3">
+              <span className="text-3xl">📞</span>
+              <h3 className="text-xl font-bold">Contact Me</h3>
+            </div>
+            <p className="text-slate-400 mb-4">
+              Let&apos;s connect! Reach out for collaborations, projects, or just to say hi
+            </p>
+            <span className="text-green-400 group-hover:text-green-300 flex items-center gap-2">
+              Get in touch <span>→</span>
+            </span>
+          </Link>
+        </div>
+      </section>
+
+      {/* Tech Stack Preview */}
       <section>
         <h2 className="text-3xl font-bold mb-8">Tech Stack</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -60,6 +99,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+
     </div>
   )
 }
