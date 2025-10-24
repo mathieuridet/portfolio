@@ -160,7 +160,7 @@ export default function About() {
         </p>
         <p className="text-slate-300 leading-relaxed mt-3">
           I focus my energy on writing quality code rather than pixel-perfect designs. 
-          The site is built with Next.js, TypeScript, and Tailwind CSS.
+          The site is built with Next.js, TypeScript, Tailwind CSS and Framer Motion.
         </p>
       </section>
     </div>
