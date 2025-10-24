@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: "AI Master Thesis",
-    description: "The objective of this thesis from 2021 (in French unfortunately) was to present the state-of-the-art "
+    description: "The objective of this thesis from 2021 (in French) was to present the state-of-the-art "
     + "regarding the following subject : Deep Learning for Predicting Cancer Onset and Treatment Response.",
     image: "/images/no-image.jpg",
     link: "https://cri.pantheonsorbonne.fr/sites/default/files/2021-10/Me%CC%81moire%20M1%20Mathieu%20RIDET.pdf",

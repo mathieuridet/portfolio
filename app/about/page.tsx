@@ -152,7 +152,7 @@ export default function About() {
       </section>
 
       {/* About This Site Section */}
-      <section className="p-6 bg-slate-800/50 rounded-xl border border-slate-700">
+      <section id="about-this-site" className="p-6 bg-slate-800/50 rounded-xl border border-slate-700">
         <h2 className="text-2xl font-bold mb-4">About This Site</h2>
         <p className="text-slate-300 leading-relaxed">
           Full transparency: I&apos;m color-blind and not a designer, so this website was built 
