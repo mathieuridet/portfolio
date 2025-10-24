@@ -1,6 +1,7 @@
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import PageTransition from '@/components/PageTransition'
 import Link from 'next/link'
 
 export const metadata = {
@@ -22,7 +23,7 @@ export default function RootLayout({
             Built with AI assistance (color-blind developer) →
           </Link>
         </div>
-        <main className="min-h-screen">{children}</main>
+        <PageTransition>{children}</PageTransition>
         <Footer />
       </body>
     </html>
